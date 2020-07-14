@@ -1,0 +1,14 @@
+.logo {
+    margin-right: auto;
+    padding-top: 6px;
+    padding-left: 29px;
+    justify-items: center;
+}
+
+
+.navigation{
+    text-decoration: none;
+    color: #282c34;
+    padding: 25px 15px!important;
+    line-height: 1;
+}

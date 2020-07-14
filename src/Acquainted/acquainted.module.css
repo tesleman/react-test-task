@@ -1,0 +1,59 @@
+.h1 {
+    text-align: center;
+    margin-top: 148px;
+
+    font-family: "Open Sans", monospace;
+
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    font-stretch: condensed;
+
+}
+.h1 span{
+    letter-spacing: -1px;
+}
+
+.imagenationLeptopman {
+    margin-top: 62px;
+    margin-left: 41px;
+    margin-bottom: 160px;
+}
+.h2{
+    font-size: 25px;
+    word-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 56px;
+    padding-left: 2px;
+}
+.p1{
+    margin-top: 21px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 0;
+    text-align: justify;
+}
+.p2{
+    margin-top: 22px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    word-spacing: 7px;
+    letter-spacing: 0;
+}
+.button{
+    color: #ef5b4c!important;
+    background-color: #ffffff!important;
+    padding: 0 2px!important;
+    margin-left: 0;
+    margin-top: 14px;
+    font-weight: 700!important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px!important;
+    text-align: left;
+}
