@@ -36,4 +36,4 @@ let mapStateToProps = (state) =>{
 }
 
 export default compose(
-        connect(mapStateToProps, {getUsersThunk, currentUserThunk, }))(Users)
+        connect(mapStateToProps, {getUsersThunk, currentUserThunk}))(Users)

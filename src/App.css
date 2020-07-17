@@ -12,6 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.custom-file-label{
+  position: relative!important;
+  max-width: 800px!important;
+  margin-bottom: 25px;
+}
 .form-group{
   margin: 0!important;
 }

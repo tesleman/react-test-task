@@ -48,11 +48,11 @@
 .button{
     background-color: #ef5b4c!important;
     padding: 6px 60px!important;
-
+    margin-left: 11px!important;
+    margin-top:19px!important; ;
     word-spacing: 1px;
-
     font-family: "Open Sans", monospace;
     font-size: 16px!important;
     text-align: center;
-    margin-left: auto!important;
+
 }
