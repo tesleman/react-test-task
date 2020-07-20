@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-test-task/static/css/main.bba7f76b.chunk.css",
-    "main.js": "/react-test-task/static/js/main.2a109a21.chunk.js",
-    "main.js.map": "/react-test-task/static/js/main.2a109a21.chunk.js.map",
+    "main.js": "/react-test-task/static/js/main.12e8651e.chunk.js",
+    "main.js.map": "/react-test-task/static/js/main.12e8651e.chunk.js.map",
     "runtime-main.js": "/react-test-task/static/js/runtime-main.73a6fb8a.js",
     "runtime-main.js.map": "/react-test-task/static/js/runtime-main.73a6fb8a.js.map",
     "static/css/2.dce947be.chunk.css": "/react-test-task/static/css/2.dce947be.chunk.css",
     "static/js/2.03cd53fe.chunk.js": "/react-test-task/static/js/2.03cd53fe.chunk.js",
     "static/js/2.03cd53fe.chunk.js.map": "/react-test-task/static/js/2.03cd53fe.chunk.js.map",
     "index.html": "/react-test-task/index.html",
-    "precache-manifest.b293858f3c425851dc56117abd8f7183.js": "/react-test-task/precache-manifest.b293858f3c425851dc56117abd8f7183.js",
+    "precache-manifest.84b538416195b5accd0d28b63001ce56.js": "/react-test-task/precache-manifest.84b538416195b5accd0d28b63001ce56.js",
     "service-worker.js": "/react-test-task/service-worker.js",
     "static/css/2.dce947be.chunk.css.map": "/react-test-task/static/css/2.dce947be.chunk.css.map",
     "static/css/main.bba7f76b.chunk.css.map": "/react-test-task/static/css/main.bba7f76b.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.dce947be.chunk.css",
     "static/js/2.03cd53fe.chunk.js",
     "static/css/main.bba7f76b.chunk.css",
-    "static/js/main.2a109a21.chunk.js"
+    "static/js/main.12e8651e.chunk.js"
   ]
 }
