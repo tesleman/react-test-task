@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-test-task/static/css/main.bba7f76b.chunk.css",
+    "main.js": "/react-test-task/static/js/main.2a109a21.chunk.js",
+    "main.js.map": "/react-test-task/static/js/main.2a109a21.chunk.js.map",
+    "runtime-main.js": "/react-test-task/static/js/runtime-main.73a6fb8a.js",
+    "runtime-main.js.map": "/react-test-task/static/js/runtime-main.73a6fb8a.js.map",
+    "static/css/2.dce947be.chunk.css": "/react-test-task/static/css/2.dce947be.chunk.css",
+    "static/js/2.03cd53fe.chunk.js": "/react-test-task/static/js/2.03cd53fe.chunk.js",
+    "static/js/2.03cd53fe.chunk.js.map": "/react-test-task/static/js/2.03cd53fe.chunk.js.map",
+    "index.html": "/react-test-task/index.html",
+    "precache-manifest.b293858f3c425851dc56117abd8f7183.js": "/react-test-task/precache-manifest.b293858f3c425851dc56117abd8f7183.js",
+    "service-worker.js": "/react-test-task/service-worker.js",
+    "static/css/2.dce947be.chunk.css.map": "/react-test-task/static/css/2.dce947be.chunk.css.map",
+    "static/css/main.bba7f76b.chunk.css.map": "/react-test-task/static/css/main.bba7f76b.chunk.css.map",
+    "static/js/2.03cd53fe.chunk.js.LICENSE.txt": "/react-test-task/static/js/2.03cd53fe.chunk.js.LICENSE.txt",
+    "static/media/LeptopGuy.png": "/react-test-task/static/media/LeptopGuy.aedc5693.png",
+    "static/media/open-sans.css": "/react-test-task/static/media/OpenSans-SemiboldItalic.ec55f263.woff",
+    "static/media/assigment.module.css": "/react-test-task/static/media/banner-photo.f5443d74.jpg",
+    "static/media/logo_1.svg": "/react-test-task/static/media/logo_1.146e2926.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73a6fb8a.js",
+    "static/css/2.dce947be.chunk.css",
+    "static/js/2.03cd53fe.chunk.js",
+    "static/css/main.bba7f76b.chunk.css",
+    "static/js/main.2a109a21.chunk.js"
+  ]
+}
