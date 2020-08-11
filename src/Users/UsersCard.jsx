@@ -9,17 +9,19 @@ let UsersCard = (props) => {
             props.getUsersThunk(props.pageSize)
         }
 
-    }, [props.users])
-    console.log(props)
+    }, [props])
+
     let changeEventHandler = () => {
         let page = props.pageSize
-
         page += 6
         props.currentUserThunk(page)
-
     }
 
-    console.log(props.total)
+ let overlay = (info, stile) =>{
+  return  <OverlayTrigger placement={'bottom'} overlay={<Tooltip> {info}</Tooltip>}>
+      <p className={stile}>{info}</p>
+  </OverlayTrigger>
+    }
 
     return (
         <div>
@@ -32,14 +34,10 @@ let UsersCard = (props) => {
                         <OverlayTrigger placement={'bottom'} overlay={<Tooltip>{u.name}</Tooltip>}>
                             <h4 className={s.figureh4}>{u.name}</h4>
                         </OverlayTrigger>
-                        <OverlayTrigger placement={'bottom'} overlay={<Tooltip> {u.position}</Tooltip>}>
-                            <p className={s.position}>{u.position}</p>
-                        </OverlayTrigger>
-                        <OverlayTrigger placement={'bottom'} overlay={<Tooltip>{u.email}</Tooltip>}>
-                            <p className={s.mail}>{u.email}</p></OverlayTrigger>
-                        <OverlayTrigger placement={'bottom'} overlay={<Tooltip>{u.phone}</Tooltip>}>
-                            <p className={s.phone}>{u.phone}</p>
-                        </OverlayTrigger>
+                        {overlay(u.position, s.position)}
+                        {overlay(u.email, s.mail)}
+                        {overlay(u.phone, s.phone)}
+                        
                     </figure>
                 </Col>) : ""}
 

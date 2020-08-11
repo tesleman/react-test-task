@@ -1,20 +1,25 @@
 import React from "react";
 import s from "./heade.module.css"
 import imagen from "./logo_1.svg"
-import {Container, Nav, Row} from "react-bootstrap";
+import {Container, FormControl, Nav, Navbar, NavDropdown, Row} from "react-bootstrap";
 
 let Header = () => {
     return (<Container fluid>
             <Row>
                 <img alt='#' src={imagen} className={s.logo}/>
 
+                <Navbar  expand="lg">
 
-                <Nav>
-                    <Nav.Link className={s.navigation} href="#deets">More deets</Nav.Link>
-                    <Nav.Link className={s.navigation} eventKey={2} href="#memes">
-                        Dank memes
-                    </Nav.Link>
-                </Nav>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#link">Link</Nav.Link>
+                           
+                        </Nav>
+
+                    </Navbar.Collapse>
+                </Navbar>
             </Row>
         </Container>
     )

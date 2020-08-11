@@ -24,7 +24,7 @@ let Acquainted = () => {
                             get bonus points. If you use any task runner (gulp/webpack) you will get bonus points as
                             well. Slice service directory page P​SD mockup​ into HTML5/CSS3.
                         </p>
-                        <Button className={s.button}>Sing up now</Button>
+                        <Button variant="light" href="#services" className={s.button}>Sing up now</Button>
                     </Col>
                 </Row>
             </Container>

@@ -34,21 +34,17 @@ const usersReducers = (state = initialState, action) => {
 let setUsers = (users) => ({type: SET_USERS, users})
 let changePage = (pageSize) => ({type: SET_PAGE, pageSize})
 let setTotal = (total) => ({type: SET_TOTAL, total})
-export let getUsersThunk = (pageSize) => (dispatch) => {
-    getUsers.users(pageSize)
-        .then(response => {
-            dispatch(setUsers(response.data.users))
-            dispatch(setTotal(response.data.total_users))
-        })
+export let getUsersThunk = (pageSize) => async (dispatch) => {
+   let response = await getUsers.users(pageSize)
+            dispatch(setUsers(response.users))
+            dispatch(setTotal(response.total_users))
 }
 
-export let currentUserThunk = (page) => (dispatch) => {
-    getUsers.users(page)
-        .then(response => {
-            dispatch(setUsers(response.data.users))
+export let currentUserThunk = (page) => async (dispatch) => {
+    let response= await getUsers.users(page)
+            dispatch(setUsers(response.users))
             dispatch(changePage(page))
-            dispatch(setTotal(response.data.total_users))
-        })
+            dispatch(setTotal(response.total_users))
 }
 
 export default usersReducers

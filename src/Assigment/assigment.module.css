@@ -56,3 +56,20 @@
     text-align: center;
 
 }
+@media screen and (max-width: 500px) {
+    .h1{
+        max-width: none;
+        width: auto;
+        text-align: center;
+    }
+    .secondText{
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        text-align: center;
+        max-height: 3.6em;
+        line-height: 1.8em;
+        max-width: 328px;
+    }
+}
